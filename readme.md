@@ -74,7 +74,7 @@ to put out knock out as many simple games as I can to get into the habit. These
 will include simple things like this as well as more interesting stuff like
 Minesweeper and Solitaire.
 
-# Stuff to fix
+## Stuff to fix
 The text display cuts off letters that go below the baseline like 'g'. I've not
 bothered to figure out the exact incantation to get Pixie to generate text
 within the correct bounds.
