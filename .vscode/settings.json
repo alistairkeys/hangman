@@ -1,0 +1,6 @@
+{
+    "nim.project": [
+        "src/hangman.nim"
+    ],
+    "nim.runOutputDirectory": "src"
+}
