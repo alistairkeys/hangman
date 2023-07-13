@@ -74,7 +74,19 @@ to put out knock out as many simple games as I can to get into the habit. These
 will include simple things like this as well as more interesting stuff like
 Minesweeper and Solitaire.
 
-## Stuff to fix
+## Stuff to fix / implement
 The text display cuts off letters that go below the baseline like 'g'. I've not
 bothered to figure out the exact incantation to get Pixie to generate text
 within the correct bounds.
+
+There should be a way to guess the entire phrase at once. I'm not sure what the
+'Wrong guesses' part of the display would look like for that (would it just not
+mention the failed attempt at all or perhaps display a 'bad guess' icon?).  For
+entering the guess, a blinking caret could be used starting at the first
+placeholder found.  For each letter the user typed, it'd put that into a
+placeholder and skip over the already guessed letters (probably displaying the
+user-entered letters in a different colour).  There should be a key to switch to
+this text entry mode and keys to cancel out or confirm the guess (if using Esc
+to cancel, watch out for 'holding too long closes the entire app' issues!).
+Also, of course, backspace would delete user-entered letters and move the caret
+back (but it'd leave already guessed letters as is!).
