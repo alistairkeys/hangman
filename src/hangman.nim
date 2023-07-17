@@ -30,7 +30,7 @@ proc doGame() =
   windowHint(CONTEXT_VERSION_MAJOR, 4)
   windowHint(CONTEXT_VERSION_MINOR, 1)
 
-  let window = createWindow(windowSize.x, windowSize.y, "Guess the Word", nil, nil)
+  let window = createWindow(windowSize.x, windowSize.y, "Hangman", nil, nil)
   makeContextCurrent(window)
 
   loadExtensions()
